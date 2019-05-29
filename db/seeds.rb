@@ -7,15 +7,15 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 ghosts = [
-  {name: 'LumberJack', picture: "IMG_8336.jpg"},
-  {name: 'Angel', picture: "IMG_8331.jpg"},
-  {name: 'Monster', picture: "IMG_8333.jpg"},
-  {name: 'Bob', picture: "IMG_8335.jpg"},
-  {name: 'Jo', picture: "IMG_8334.jpg"},
-  {name: 'Ghosty', picture: "IMG_8332.jpg"},
-  {name: 'Birdly', picture: "IMG_8330.jpg"},
-  {name: 'Colorful', picture: "IMG_8329.jpg"},
-  {name: 'Kidly', picture: "IMG_8328.jpg"},
+  {name: 'LumberJack', picture: "IMG_8336.JPG"},
+  {name: 'Angel', picture: "IMG_8331.JPG"},
+  {name: 'Monster', picture: "IMG_8333.JPG"},
+  {name: 'Bob', picture: "IMG_8335.JPG"},
+  {name: 'Jo', picture: "IMG_8334.JPG"},
+  {name: 'Ghosty', picture: "IMG_8332.JPG"},
+  {name: 'Birdly', picture: "IMG_8330.JPG"},
+  {name: 'Colorful', picture: "IMG_8329.JPG"},
+  {name: 'Kidly', picture: "IMG_8328.JPG"},
 ]
 
 ghosts.each do |ghost|
