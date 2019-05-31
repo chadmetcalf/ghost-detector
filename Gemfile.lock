@@ -47,9 +47,13 @@ GEM
     archive-zip (0.12.0)
       io-like (~> 0.3.0)
     arel (9.0.0)
-    bindex (0.7.0)
+    better_errors (2.5.1)
+      coderay (>= 1.0.0)
+      erubi (>= 1.0.0)
+      rack (>= 0.9.0)
+    binding_of_caller (0.8.0)
+      debug_inspector (>= 0.0.1)
     builder (3.2.3)
-    byebug (11.0.1)
     capybara (3.21.0)
       addressable
       mini_mime (>= 0.1.3)
@@ -63,8 +67,10 @@ GEM
     chromedriver-helper (2.1.1)
       archive-zip (~> 0.10)
       nokogiri (~> 1.8)
+    coderay (1.1.2)
     concurrent-ruby (1.1.5)
     crass (1.0.4)
+    debug_inspector (0.0.3)
     erubi (1.8.0)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
@@ -89,6 +95,11 @@ GEM
     nokogiri (1.10.3)
       mini_portile2 (~> 2.4.0)
     pg (1.1.4)
+    pry (0.12.2)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
+    pry-rails (0.3.9)
+      pry (>= 0.10.4)
     public_suffix (3.1.0)
     puma (3.12.1)
     rack (2.0.7)
@@ -137,11 +148,6 @@ GEM
     thread_safe (0.3.6)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
-    web-console (3.7.0)
-      actionview (>= 5.0)
-      activemodel (>= 5.0)
-      bindex (>= 0.4.0)
-      railties (>= 5.0)
     webpacker (4.0.2)
       activesupport (>= 4.2)
       rack-proxy (>= 0.6.1)
@@ -156,16 +162,17 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  byebug
+  better_errors
+  binding_of_caller
   capybara (>= 2.15)
   chromedriver-helper
   jbuilder (~> 2.5)
   pg (>= 0.18, < 2.0)
+  pry-rails
   puma (~> 3.11)
   rails (~> 5.2.3)
   selenium-webdriver
   tzinfo-data
-  web-console (>= 3.3.0)
   webpacker
 
 RUBY VERSION
